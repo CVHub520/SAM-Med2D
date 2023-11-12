@@ -276,7 +276,7 @@ class SamDecoder:
 
         assert point_coords.shape[0] == 1 and point_coords.shape[-1] == 2
         assert point_labels.shape[0] == 1
-        print(f"point_coords={point_coords}, point_labels={point_labels}")
+
         input_dict = {"image_embeddings": img_embeddings,
                       "point_coords": point_coords,
                       "point_labels": point_labels,

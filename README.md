@@ -236,7 +236,7 @@ python3 scripts/export_onnx_encoder_model.py --sam_checkpoint /path/to/sam-med2d
 - export decoder model
 
 ```bash
-python3 scripts/export_onnx_model.py --checkpoint /path/to/sam-med2d_b.pth --output /path/to/sam-med2d_b.decoder.onnx --model-type vit_b --return-single-mask
+python3 scripts/export_onnx_model.py --sam_checkpoint /path/to/sam-med2d_b.pth --output /path/to/sam-med2d_b.decoder.onnx --model-type vit_b --return-single-mask
 ```
 
 - inference with onnxruntime
